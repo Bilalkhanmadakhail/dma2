@@ -960,8 +960,12 @@ button {
         .box12 .para12 {
             margin: 0px 13px;
         }
+        .diafull {
+            /* margin-top: 50px; */
+            margin: 18px 19px}
+            
         .box11 {
-            margin-top: 513px;
+            margin-top: 168px;
             height: 250px;
         }
         .box11 .para5 {
