@@ -239,7 +239,7 @@ li{
 }
 .photos1{
     /* width: 100%;  */
-    margin: 60px 130px;
+    margin: 60px 200px;
     /* border: 2px solid black; */
     display: flex;
     
@@ -313,7 +313,7 @@ li{
 
 .photos2{
     /* width: 100%;  */
-    margin: -25px 100px;
+    margin: -25px 190px;
     /* border: 2px solid black; */
     display: flex;
     
@@ -355,7 +355,7 @@ li{
 
 .photos3{
     /* width: 100%;  */
-    margin: 65px 125px;
+    margin: 65px 198px;
     /* border: 2px solid black; */
     display: flex;
     flex-direction: row-reverse;
@@ -445,7 +445,7 @@ li{
 
 .photos4{
     /* width: 100%;  */
-    margin: 60px 130px;
+    margin: 60px 194px;
     /* border: 2px solid black; */
     display: flex;
     
@@ -544,7 +544,7 @@ li{
 
 .photos5{
     /* width: 100%;  */
-    margin: 65px 120px;
+    margin: 65px 185px;
     /* border: 2px solid black; */
     display: flex;
     flex-direction: row-reverse;
