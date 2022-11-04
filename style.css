@@ -8,6 +8,10 @@
     max-width: 1400px;
     margin: 0px auto;
 }
+body{
+    overflow-x: hidden;
+}
+
 /* .header-nav{
     position: fixed;
     z-index: 999;
@@ -17,6 +21,16 @@
 nav{
     display: flex;
     background-color: #181E4E;
+}
+.topfull{
+    background-color: #181E4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-nav{
+
+width: 1326px;
 }
 .top{
     display: flex;
@@ -68,6 +82,8 @@ font-weight: 500;
     margin: 0px 28px;
     padding: 20px 0px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom: 2px solid #e5e7eb;
     transition: width 1s;
    
@@ -172,7 +188,7 @@ li{
 }
 .para4 {
     margin-left: 30px;
-    width: 80%;
+    width: 85%;
     font-size: 28px;
     font-weight: 500;
     font-family: DM Sans,sans-serif;
@@ -180,9 +196,9 @@ li{
 
 .para4 p {
     border-bottom: 1px solid gray;
-    border-left: 6px solid grey;
+    border-left: 6px solid rgb(187, 181, 181);
     margin-top: 20px;
-    padding: 10px;
+    padding: 10px 20px;
     width: 100%;
     /* line-height: 60px; */
     /* line-height: 50px; */
@@ -190,8 +206,8 @@ li{
 
 .diafull {
     /* margin-top: 50px; */
-    margin: 20px 50px;
-    width: 100%;
+    margin: 19px 28px;
+    width: 95%;
     display: flex;
     justify-content: space-around;
 }
@@ -668,7 +684,7 @@ li{
 }
 input{
     padding:15px;
-    width: 250px;
+    width: 275px;
     outline: none;
     border: 1px solid     rgb(209 213 219); ;
     
@@ -1016,7 +1032,7 @@ margin-top: 50px;
 }
 .footer{
     display: flex;
-    margin: 30px 70px 0px 70px;
+    margin: 30px 100px 0px 100px;
     
 }
 .col1{
