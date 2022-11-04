@@ -529,6 +529,9 @@
        
         /* border-bottom: 1px solid white; */
     }
+    .diafull{
+        margin: 0px 0px;
+    }
     .navigation ul {
         flex-direction: column;
         align-items: flex-start;
@@ -613,6 +616,9 @@ button {
     width: 150px;
 
 }
+.strength p{
+    width: fit-content;
+}
 
 }
 @media screen and (max-width:750px){
@@ -673,6 +679,10 @@ button {
         .footer {
             display: flex;
             flex-direction: column;
+        }
+        .footer {
+            display: flex;
+            margin: 30px 100px 0px 50px;
         }
         .icons {
             display: flex;
@@ -753,7 +763,10 @@ button {
 
 @media screen and (max-width:570px){
 
-
+    .footer {
+        display: flex;
+        margin: 30px 100px 0px 50px;
+    }
     .request {
        font-weight: 600;
         font-size: .885rem;
@@ -805,7 +818,7 @@ button {
                     margin-top: -30px;
                 }
                 .box11 {
-                    margin-top: 344px;
+                    margin-top: 300px;
                     height: 250;
                 }
                 .mid-section {
@@ -885,7 +898,9 @@ button {
         margin-left: 20px;
         height: 320px;
     }
-
+.diafull{
+    margin: 0px 0px;
+}
 
     .request {
         font-weight: 600;
@@ -960,10 +975,15 @@ button {
         .box12 .para12 {
             margin: 0px 13px;
         }
-        .diafull {
+        .footer {
+            /* width: fit-content; */
+            /* width: 100%; */
+            display: flex;
+            margin: 30px 79px 0px 41px;
+        }
             /* margin-top: 50px; */
-            margin: 18px 19px}
-            
+            /* margin: 18px 19px} */
+
         .box11 {
             margin-top: 168px;
             height: 250px;
@@ -998,6 +1018,12 @@ button {
             .lastrit {
                 
                 width: 65%;}
+                .diafull{
+                    box-sizing: border-box;
+                }
+                .para4 p{
+                    width: 60%;
+                }
 
 
 }
