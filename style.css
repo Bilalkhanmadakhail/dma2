@@ -669,6 +669,7 @@ li{
 
 }
 .strength p{
+    width: 700px;
     margin-top: 15px;
     --tw-text-opacity: 1;
     color: rgb(102 102 102/var(--tw-text-opacity));
